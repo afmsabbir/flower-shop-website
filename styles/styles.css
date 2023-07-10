@@ -1,0 +1,27 @@
+/* hare start header section */
+header{
+    background: #e554731a;
+    display: flex;
+}
+
+header h1{
+    text-align: left;
+    padding: 197px  900px  0px 240px;
+}
+header p{
+    text-align: left;
+    padding: 0px 0px 0px 240px;
+}
+header button{
+    padding: 20px 40px;
+    align-items: flex-start;
+    border-radius: 10px;
+    color: white;
+    background: #E55473;
+    border: none;
+    position: inherit;
+}
+.right{
+    align-content: center;
+}
+/* hare end header section  */
