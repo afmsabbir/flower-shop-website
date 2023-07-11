@@ -131,9 +131,17 @@ header{
     background-color: rgba(229, 84, 115, 0.05);
     margin-top: 70px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .div2 h1{
     margin-bottom: 20px;
+    margin-left: 421px;
+    padding-top: 100px;
+}
+.div2 p{
+    margin-left: 393px;
+    text-align: center;
 }
 .div2 button{
     padding: 20px 40px;
@@ -143,10 +151,55 @@ header{
     background: #E55473;
     border: none;
     margin-bottom: 20px;
+    margin-left: 550px;
+    margin-top: 32px;
+}
+.div2-img{
+    margin-right: 429px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-/* div1 section end */
+/* div2 section end */
+
+/* div3 start  */
+.div3-head{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.div3-pics{
+    display: flex;
+    justify-content: center;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 100px;
+}
+.flower1{
+    padding-right: 20px;
+}
+.flower2{
+    padding-right: 20px;
+}
+.flower3{
+    padding-right: 20px;
+}
+.flower4{
+    padding-right: 20px;
+}
+.banner{
+    text-align: center;
+    background-image: url('../Flower\ Asset/Rec');
+}
+.email-section{
+    margin-top: 48px;
+}
+
+/* div3 end */
 /* hare main section end */
+
+
+
 
 /* hare footer start */
 footer{
