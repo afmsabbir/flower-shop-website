@@ -8,44 +8,143 @@ header{
     display: flex;
 }
 
-header h1{
-    text-align: left;
-    padding: 197px  900px  0px 240px;
+.banner-heading{
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    margin-top: 190px;
+    margin-left: 240px;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: normal;
 }
-header p{
+.banner-p{
     text-align: left;
     padding: 0px 0px 0px 240px;
+    margin-top: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
-header button{
+.banner-btn{
     padding: 20px 40px;
-    align-items: flex-start;
+    align-items: center;
     border-radius: 10px;
     color: white;
     background: #E55473;
     border: none;
-    position: inherit;
+    margin-top: 20px;
+    margin-left: 240px;
 }
-.right{
-    align-content: center;
+.banner-pic{
+    align-items: center;
+    width: 635px;
+    height: 800px;
+    margin-top: 50px;
+    margin-right: 40px;
 }
 /* hare end header section  */
 
 /* hare main section start */
 /* div1 section start */
-.div1 h1{
+.div1-heading{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
-.div1 p{
+
+.div1-box{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 32px;
+    margin-left: 210px;
+    margin-right: 210px;
+}
+.pink-box{
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.pink-box img{
+    padding: 110px 78px 0px 76px;
+    width: 310px;
+    height: 428px;
+    margin-bottom: 0px;
+    padding-right: 100px;
+}
+.blue-box{
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.blue-box img{
+    padding: 117px 47px 51px 47px;
+    width: 370px;
+    height: 370px;
+    margin-bottom: 0px;
+}
+.yellow-box{
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.yellow-box img{
+    width: 314px;
+    height: 471px;
+    padding: 67px 75px 0px 75px;
+}
+.bottom-text{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 128px;
+    margin-left: 210px;
+    margin-right: 210px;
+
+}
+
+.div1-footer{
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    margin-left: 240px;
+    margin-right: 240px;
+    flex-direction: column;
+}
+.div1f-pic{
+    margin-left: 210px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    padding-top: 86px;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.div1f-text{
+    margin-left: 175px;
+    margin-right: 175px;
+    padding-bottom: 87px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 /* div1 section end */
 /* div2 section start */
 .div2{
     background-color: rgba(229, 84, 115, 0.05);
+    margin-top: 70px;
     display: flex;
-    align-items: center;
 }
+.div2 h1{
+    margin-bottom: 20px;
+}
+.div2 button{
+    padding: 20px 40px;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    background: #E55473;
+    border: none;
+    margin-bottom: 20px;
+}
+
 /* div1 section end */
 /* hare main section end */
 
